@@ -1,41 +1,16 @@
-# FITSPHERE
-A PROJECT THAT FIX YOUR BODY AT HOME
-# FITSPHERE
+# React + Vite
 
-Welcome to **FITSPHERE** — your ultimate home workout and fitness companion designed to help people transform their bodies and achieve a healthy lifestyle from the comfort of their homes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-FITSPHERE provides effective home workout routines, fitness guidance, and motivation for beginners as well as advanced fitness enthusiasts. The platform is built to make fitness simple, affordable, and accessible for everyone without requiring expensive gym memberships or equipment.
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-* Full body home workout plans
-* Beginner to advanced exercise routines
-* Fat loss and muscle gain workouts
-* Daily fitness motivation
-* Responsive and user-friendly design
-* Workout categories for different fitness goals
-* Healthy lifestyle support
+## React Compiler
 
-## Technologies Used
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* HTML
-* CSS
-* JavaScript
+## Expanding the ESLint configuration
 
-## Purpose
-
-The main purpose of FITSPHERE is to encourage people to stay active, build discipline, and improve their physical and mental health through regular home workouts and healthy habits.
-
-## Future Improvements
-
-* Personalized workout recommendations
-* BMI and calorie calculator
-* Nutrition and diet plans
-* Workout progress tracker
-* Exercise video tutorials
-* User authentication system
-
-THANKYOU....
-
-> “Fitness is not about being better than someone else. It’s about being better than you used to be.”
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
